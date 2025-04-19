@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CKAN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/api/limits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Auth/AuthForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/PublicationsCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/SearchForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/UI/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/AuthPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/ResultsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/SearchPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/store/authSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/utils/validation.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2voz9qvxEGRbB2MoxiVgGZ4M84Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danii/PycharmProjects/django projects/CKAN/scan-frontend/src/pages&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danii\PycharmProjects\django projects\CKAN\scan-frontend\src\pages" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="" />
+      <created>1744826066512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744826066512</updated>
+    </task>
+    <servers />
+  </component>
+</project>
