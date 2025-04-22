@@ -4,31 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CKAN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/api/limits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Auth/AuthForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/PublicationsCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/SearchForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/UI/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/AuthPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/ResultsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/SearchPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/store/authSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/utils/validation.js" afterDir="false" />
+    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="main part + fixes">
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Car/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Car/car.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Tariff/TariffCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/UI/Badge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/store/searchSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/SearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/SearchPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/store/authSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/store/authSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/utils/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/utils/validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DenNed12"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DenNed12/SKAN.git",
+    "accountId": "d5bbf7da-f0f2-40c7-925e-8824433ed165"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -74,6 +73,19 @@
       <option name="presentableId" value="Default" />
       <updated>1744826066512</updated>
     </task>
+    <task id="LOCAL-00001" summary="main part + fixes">
+      <option name="closed" value="true" />
+      <created>1745086255020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745086255020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main part + fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="main part + fixes" />
   </component>
 </project>

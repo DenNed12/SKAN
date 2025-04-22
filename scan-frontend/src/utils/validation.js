@@ -26,3 +26,5 @@ export const validateINN = (inn) => {
 
   return false;
 };
+
+export default validateINN;

@@ -50,4 +50,5 @@ export const {
   logout,
   setCompanyLimits
 } = authSlice.actions;
+
 export default authSlice.reducer;
