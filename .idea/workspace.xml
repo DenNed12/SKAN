@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="fixed all issues">
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/api/searchAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Auth/auth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/authpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/mainpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/results.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/pages/searchpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/styles/variables.css" afterDir="false" />
+    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="fixes and css">
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Auth/AuthForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Search/SearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/SearchForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/AuthPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/AuthPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/ResultsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/SearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/SearchPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Search/PublicationCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/PublicationCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,12 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745345699264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixes and css">
+      <option name="closed" value="true" />
+      <created>1745774847095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745774847095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main part + fixes" />
     <MESSAGE value="fixed all issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed all issues" />
+    <MESSAGE value="fixes and css" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes and css" />
   </component>
 </project>
