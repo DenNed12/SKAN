@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../store/authSlice';
 import AuthForm from '../components/Auth/AuthForm';
+import './authpage.css';
 
 const AuthPage = () => {
   const dispatch = useDispatch();

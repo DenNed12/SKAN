@@ -6,17 +6,24 @@ import {
   setCompanyLimits,
   logout
 } from '../../store/authSlice';
+import './header.css';
 
 const Header = () => {
-
   const dispatch = useDispatch();
   const { isAuthenticated, user, companyLimits } = useSelector(state => state.auth);
 
   useEffect(() => {
+    const loadLimits = async () => {
+      try {
+        const limits = await fetchCompanyLimits();
+        dispatch(setCompanyLimits(limits));
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
     if (isAuthenticated) {
-      fetchCompanyLimits().then(limits =>
-        dispatch(setCompanyLimits(limits))
-      );
+      loadLimits();
     }
   }, [isAuthenticated, dispatch]);
 
@@ -47,15 +54,6 @@ const Header = () => {
       )}
     </header>
   );
-};
-
-const loadLimits = async () => {
-  try {
-    const limits = await fetchCompanyLimits();
-    dispatch(setCompanyLimits(limits));
-  } catch (error) {
-    console.error(error);
-  }
 };
 
 export default Header;

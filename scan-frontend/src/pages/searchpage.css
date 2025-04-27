@@ -1,0 +1,100 @@
+.search-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.search-page h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.search-page form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-page label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.search-page input,
+.search-page select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-page input:focus,
+.search-page select:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.search-page button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-page button:hover {
+    background-color: #3a7bc8;
+}
+
+.search-page button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.search-page span {
+    display: block;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+}
+
+.footer {
+    background: #4a90e2;
+    color: white;
+    padding: 30px 5%;
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footerLogo {
+    height: 100px;
+    width: auto;
+}
+
+.footerInfo {
+    text-align: right;
+}
+
+.footerInfo p {
+    margin: 5px 0;
+    font-size: 14px;
+}

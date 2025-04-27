@@ -3,10 +3,12 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { validateINN } from '../utils/validation';
 import { setSearchParams } from '../store/searchSlice';
+import './searchpage.css';
 
 const SearchPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+
 
   const [form, setForm] = useState({
     inn: '',

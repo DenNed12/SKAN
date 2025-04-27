@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { validateINN } from '../../utils/validation';
+import './search.css';
 
 const SearchForm = ({ onSearch }) => {
   const [params, setParams] = useState({

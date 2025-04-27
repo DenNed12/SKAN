@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Car from '../components/Car/Car';
 import TariffCard from '../components/Tariff/TariffCard';
+import './mainpage.css';
 
 const MainPage = () => {
   const { isAuthenticated, currentTariff } = useSelector(state => state.auth);
