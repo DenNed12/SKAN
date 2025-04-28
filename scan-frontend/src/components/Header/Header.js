@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { fetchCompanyLimits } from '../../api/limits';
 import {
   setCompanyLimits,
@@ -29,8 +29,32 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="logo">
-        <Link to="/">СКАН</Link>
+      <div className="header-left">
+        <div className="logo">
+          <Link to="/">СКАН</Link>
+        </div>
+
+        <nav className="main-nav">
+          <NavLink
+            to="/"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+            end
+          >
+            Главная
+          </NavLink>
+          <NavLink
+            to="/tariffs"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            Тарифы
+          </NavLink>
+          <NavLink
+            to="/faq"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            FAQ
+          </NavLink>
+        </nav>
       </div>
 
       {isAuthenticated ? (
@@ -44,12 +68,17 @@ const Header = () => {
           )}
           <div className="user-info">
             <span>{user.name}</span>
-            <button onClick={() => dispatch(logout())}>Выйти</button>
+            <button
+              onClick={() => dispatch(logout())}
+              className="logout-button"
+            >
+              Выйти
+            </button>
           </div>
         </div>
       ) : (
-        <nav>
-          <Link to="/auth">Войти</Link>
+        <nav className="auth-nav">
+          <Link to="/auth" className="auth-link">Войти</Link>
         </nav>
       )}
     </header>
