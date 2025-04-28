@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="fixes and css">
-      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/card.css" afterDir="false" />
+    <list default="true" id="2e9af081-f737-4891-a06d-3ee2ef64ad6e" name="Changes" comment="v4">
+      <change afterPath="$PROJECT_DIR$/scan-frontend/src/components/Tariff/tariff.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Search/PublicationCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/PublicationCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Auth/AuthForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Auth/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Auth/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Car/car.css" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Car/car.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Search/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Search/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Search/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/components/Tariff/TariffCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/components/Tariff/TariffCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan-frontend/src/pages/mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/scan-frontend/src/pages/mainpage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1745774847095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v4">
+      <option name="closed" value="true" />
+      <created>1745776361638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745776361638</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main part + fixes" />
     <MESSAGE value="fixed all issues" />
     <MESSAGE value="fixes and css" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes and css" />
+    <MESSAGE value="v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="v4" />
   </component>
 </project>

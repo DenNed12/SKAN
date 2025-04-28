@@ -1,9 +1,9 @@
 .header {
-    background-color: white;
+    background-color: var(--white); /* Основной синий цвет */
     width: 100%;
     height: 93px;
     margin: 0 auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(var(--black), 0.1);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -13,16 +13,18 @@
     padding: 0 60px;
 }
 
+/* Обновляем цвет текста и элементов для контраста на синем фоне */
 .logo {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
-    transition: transform 0.3s;
+    color: var(--light-blue); /* Белый текст на синем фоне */
+    transition: transform 0.3s, color 0.3s;
 }
 
 .logo:hover {
     transform: scale(1.05);
+    color: var(--light-blue); /* Светло-голубой при наведении */
 }
 
 .user-panel {
@@ -32,15 +34,20 @@
 }
 
 .limits {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: rgba(var(--white), 0.2); /* Полупрозрачный белый */
+    color: var(--light-blue); /* Белый текст */
     padding: 8px 16px;
     border-radius: 5px;
     font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.limits:hover {
+    background-color: rgba(var(--white), 0.4); /* Более плотный белый */
 }
 
 .loader {
-    color: #666;
+    color: var(--light-blue); /* Светло-голубой */
     font-size: 14px;
 }
 
@@ -52,12 +59,13 @@
 
 .user-info span {
     font-weight: 500;
+    color: var(--blue); /* Белый текст */
 }
 
 .user-info button {
-    background: none;
-    border: 1px solid #ddd;
-    color: #333;
+    background: rgba(var(--white), 0.1); /* Полупрозрачный белый */
+    border: 1px solid var(--white); /* Белая граница */
+    color: var(--white); /* Белый текст */
     cursor: pointer;
     font-weight: 500;
     font-size: 14px;
@@ -67,21 +75,28 @@
 }
 
 .user-info button:hover {
-    color: var(--accent-blue);
-    border-color: var(--accent-blue);
+    color: var(--white);
+    border-color: var(--light-blue);
+    background-color: rgba(var(--light-blue), 0.3);
+}
+
+nav {
+    display: flex;
+    gap: 25px;
 }
 
 nav a {
-    color: black;
+    color: var(--light-blue); /* Белый текст */
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     position: relative;
     padding: 5px 0;
+    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: var(--accent-blue);
+    color: var(--light-blue); /* Светло-голубой при наведении */
 }
 
 nav a::after {
@@ -91,7 +106,7 @@ nav a::after {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--accent-blue);
+    background: var(--light-blue); /* Светло-голубая линия */
     transition: width 0.3s;
 }
 
@@ -99,9 +114,14 @@ nav a:hover::after {
     width: 100%;
 }
 
+/* Адаптивные стили (остаются без изменений) */
 @media (max-width: 1024px) {
     .header {
         padding: 0 30px;
+    }
+
+    nav {
+        gap: 15px;
     }
 }
 
@@ -118,6 +138,12 @@ nav a:hover::after {
         gap: 15px;
         width: 100%;
         align-items: flex-end;
+    }
+
+    nav {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -138,5 +164,13 @@ nav a:hover::after {
     .limits {
         text-align: center;
         width: 100%;
+    }
+
+    nav {
+        gap: 10px 15px;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 }

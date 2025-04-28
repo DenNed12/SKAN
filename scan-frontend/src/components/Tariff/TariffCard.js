@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Badge } from '../UI/Badge';
+import './tariff.css';
 
 const TariffCard = ({ tariff, isCurrent }) => {
   const getTariffColor = () => {

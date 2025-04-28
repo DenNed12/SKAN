@@ -8,9 +8,10 @@ import './mainpage.css';
 const MainPage = () => {
   const { isAuthenticated, currentTariff } = useSelector(state => state.auth);
   const features = [
-    { title: 'Преимущество 1', content: 'Описание преимущества' },
-    { title: 'Преимущество 2', content: 'Описание преимущества' },
-    { title: 'Преимущество 3', content: 'Описание преимущества' }
+    { title: 'Скорость', content: 'Высокая скорость обработки заявки' },
+    { title: 'Полнота', content: 'У нас есть полная информация обо всех' },
+    { title: 'Безопасность', content: 'Мы бережно относимся к конфиденциальной информации' },
+    { title: 'Цены', content: 'У нас лучшие цены' },
   ];
 
   const tariffs = [
@@ -32,7 +33,7 @@ const MainPage = () => {
       </section>
 
       <section className="features-section">
-        <h2>Наши преимущества</h2>
+        <h2>Почему мы</h2>
         <Car
           items={features}
           renderItem={(item) => (
